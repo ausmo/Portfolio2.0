@@ -1,0 +1,218 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* CSS Variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* start navbar */
+
+.logo{
+    max-height: 50px;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 500 15px/2px;
+    font-family: Helvetica;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background:#4c00ff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: #4c00ff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navbar */
+
+/* start banner area */
+
+/* .site-main .site-banner {
+    background: url(../img/am\ banner.jpg) no-repeat 0% 50%;
+} */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform:translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image >img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.me{
+    max-height: 300px;
+    margin-top: 145px;  
+}
+
+
+/* end banner area */
+
+/* about me area */
+
+.aboutUsImage{
+    max-height: 400px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.about-title{
+    margin-top: 200px;
+}
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span{
+    display:block;
+    font:normal bold 49px/ 60px;
+    font-family: helvetica;
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph >p{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+/* Start Brand Area */
+
+.brand-area{
+    padding:1rem 20rem;
+    margin-bottom:4rem;
+}
+
+.brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content:center;
+}
+
+.brand-area .first-row .col-lg-4 > .single-brand{
+    border:1px solid var(--border-color);
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height:100px;
+    cursor:pointer;
+    transition:transform .4s ease;
+    
+}
+
+.brand-area .first-row .col-lg-4 > .single-brand > img{
+    width: 75%;
+}
+
+.brand-area .first-row .col-lg-4 > .single-brand:hover > img{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1)
+}
+
+.brand-area .experience-area{
+    padding-left: 3rem;
+}
+
+.experience-area span{
+    display:block;
+}
+
+.brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -190px; top:0%;
+    background:#e0752911;
+    width:400px;
+    height: 400px;
+    margin-left: 250px;
+    z-index: -1;
+}
+
+.brand-area .experience-area .years-area .years{
+    font:normal bold;
+    font-family:helvetica;
+    color:rgb(3, 104, 255);
+    
+}
+
+.fpbwgh{
+    font-size: small;
+}
+
+.brand-area .experience-area .years-area h2 > span{
+    font:normal 600 22px/30px;
+    font-family: helvetica;
+}
+
+.brand-area .experience-area .call-area{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+/* End Brand Area */
+
+/* Services Area */
+
+.services-area{
+    padding: 7rem 2rem;
+}
+
+.services-area .service-title{
+    padding: 0 14rem;
+}
+
+.services-area .service-title h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.services-area .services{
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .4s ease;
+}
+
+.services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+/* End Services Area */
