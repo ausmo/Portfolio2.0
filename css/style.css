@@ -106,11 +106,100 @@
 
 /* End About Area */
 
+/* Portfolio Area */
+
+.second{
+    margin-left: 220px;
+}
+
+.project-title{
+    padding-right: 150px;
+}
+
+.project-area{
+    padding-left: 150px;
+}
+
+.fourth{
+    padding-left: 200px;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px helvetica;
+    text-transform: uppercase;
+}
+
+.project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px;
+    font-family: helvetica;
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color)
+}
+
+footer.footer-area .social a:hover > i{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* End Project Area */
+
+/* Services Area */
+
+.services-area{
+    padding: 7rem 2rem;
+}
+
+.services-area .service-title{
+    padding: 0 14rem;
+    font-weight: bolder;
+}
+
+.services-area .service-title h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.services-area .services{
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .4s ease;
+}
+
+.services-list{
+    padding-right: 100px;
+}
+
+.services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Services Area */
+
 /* Start Brand Area */
 
 .brand-area{
     padding:1rem 20rem;
     margin-bottom:4rem;
+   
 }
 
 .brand-area .first-row .col-lg-4{
@@ -179,40 +268,3 @@
 }
 
 /* End Brand Area */
-
-/* Services Area */
-
-.services-area{
-    padding: 7rem 2rem;
-}
-
-.services-area .service-title{
-    padding: 0 14rem;
-}
-
-.services-area .service-title h1{
-    font-size: 35px;
-    font-weight: bolder;
-}
-
-.services-area .services{
-    padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
-    transition: box-shadow .4s ease;
-}
-
-.services-area .services:hover{
-    box-shadow: var(--box-shadow);
-}
-
-
-
-
-
-
-
-
-
-
-/* End Services Area */

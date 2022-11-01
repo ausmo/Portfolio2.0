@@ -11,6 +11,9 @@
     <!-- font awesome icons -->
     <link rel="stylesheet" href="./css/all.min.css" />
 
+    <!-- Magnific Popup css file -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
     <!-- custom CSS file -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -161,92 +164,80 @@
     <br />
     <br />
     <br />
-    <!-- Brand Area -->
 
-    <section class="brand-area">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-6 col-lg-12 col-md-12">
-            <div class="first-row row">
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-1" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-2" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-3" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-4" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-5" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-6" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-7" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-8" />
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-brand">
-                  <img src="./img/googlegray.jpg" alt="Brand-9" />
-                </div>
-              </div>
+    <!-- Project Area -->
+
+    <section class="project-area">
+        <div class="container">
+            <div class="project-title pb-5">
+                <h1 class="text-uppercase title-h1 text-center">Projects</h1>
             </div>
-          </div>
-          <div class="col-xl-6 col-lg-12 col-md-12">
-            <div class="experience-area font-helvetica">
-              <div class="d-flex flex-row years-area">
-                <h2 class="p-2 years">0</h2>
-                <h2>
-                  <span>Years</span>
-                  <span>Experience</span>
-                  <span>Working</span>
-                  <span class="fpbwgh"
-                    >(future project brands will go here)</span
-                  >
-                </h2>
-              </div>
-              <br />
-              <div class="d-flex flex-row flex-wrap call-area">
-                <span><i class="fa-solid fa-phone fa-3x px-3"></i></span>
-                <div class="call-now">
-                  <a href="#" class="text-uppercase h4 font-helvetica"
-                    >Call Now</a
-                  >
-                  <span class="font-helvetica py-2">(469) 491-9554</span>
-                </div>
-              </div>
-              <div class="bg-panel"></div>
+            <div class="button-group">
+                <button type="button" class="active">All</button>
+                <button type="button" data-filter=".latest">Latest</button>
+                <button type="button" data-filter=".upcoming">Upcoming</button>
             </div>
-          </div>
+
+            <div class="row grid portCards">
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item first latest">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="text-popup-link" href="./img/ISS.png">
+                                <img src="./img/ISS.png" alt="portfolio-1">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">ISS Tracker</h4>
+                            <span class="text-secondary">First Project</span>
+                            <a href="https://github.com/ausmo/ISS-Tracker">github</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item second latest">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./img/beerbuddies.png" alt="portfolio-2">
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Beer Buddies</h4>
+                            <span class="text-secondary">Second Project</span>
+                            <a href="https://github.com/ausmo/beer-buddies">github</a>
+                            <a href="https://stark-ridge-23340.herokuapp.com/">heroku</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item third upcoming">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./img/flexpanels2.jpg" alt="portfolio-3">
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Flex Panels</h4>
+                            <span class="text-secondary">Upcoming Project</span>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item fourth upcoming">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./img/clickdrag.jpg" alt="portfolio-4">
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Drag to Scroll</h4>
+                            <span class="text-secondary">Upcoming Project</span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
         </div>
-      </div>
     </section>
 
-    <!-- End Brand Area -->
+    <!-- Emd Project Area -->
 
+    <br>
+    <br>
+    <br>
+    
     <!-- Services Area -->
 
     <section class="services-area">
@@ -303,7 +294,7 @@
                     Future Growth
                   </h5>
                   <p class="card-text text-secondary">
-                    I want to learn back-end as well so I can be a bigger asset
+                    I want to eventually learn back-end as well so I can be a bigger asset
                   </p>
                 </div>
               </div>
@@ -330,51 +321,124 @@
 
     <!-- End Services Area -->
 
-    <!-- Project Area -->
+     <!-- Brand Area -->
 
-    <section class="project-area">
-        <div class="container">
-            <div class="project-title pb-5">
-                <h1 class="text-uppercase title-h1">Recently Done Projects</h1>
+     <section class="brand-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+              <div class="first-row row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-1" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-2" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-3" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-4" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-5" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-6" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-7" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-8" />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/googlegray.jpg" alt="Brand-9" />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="button-group">
-                <button type="button" class="active">All</button>
-                <button type="button">Latest</button>
-                <button type="button">Upcoming</button>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+              <div class="experience-area font-helvetica">
+                <div class="d-flex flex-row years-area">
+                  <h2 class="p-2 years">0</h2>
+                  <h2>
+                    <span>Years</span>
+                    <span>Experience</span>
+                    <span>Working</span>
+                    <span class="fpbwgh"
+                      >(future project brands will go here)</span
+                    >
+                  </h2>
+                </div>
+                <br />
+                <div class="d-flex flex-row flex-wrap call-area">
+                  <span><i class="fa-solid fa-phone fa-3x px-3"></i></span>
+                  <div class="call-now">
+                    <a href="#" class="text-uppercase h4 font-helvetica"
+                      >Call Now</a
+                    >
+                    <span class="font-helvetica py-2">(469) 491-9554</span>
+                  </div>
+                </div>
+                <div class="bg-panel"></div>
+              </div>
             </div>
-
-            <div class="row grid">
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                    <div class="our-project">
-                        <div class="img">
-                            <img src="./img/me2.jpg" alt="portfolio-1">
-                        </div>
-                    </div>
-                </div>   
-            </div>
+          </div>
         </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Emd Project Area -->
+      </section>
+  
+      <!-- End Brand Area -->
 
     <!-- End Main Area -->
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href=""></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow Me</h5>
+                    <a href="https://www.instagram.com/_austin__moore_/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ausmo"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/austin-moore-14134a1b/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Jquery js file -->
     <script src="./js/jquery.3.6.1.js"></script>
 
     <!-- bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- isotope js library -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!-- Magnific Popup script file -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!-- custom js file -->
+      <script src="./js/main.js"></script>
+
   </body>
 </html>
