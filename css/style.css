@@ -150,15 +150,6 @@ footer.footer-area .social a:hover > i{
     color:blue;
 }
 
-
-
-
-
-
-
-
-
-
 /* End Project Area */
 
 /* Services Area */
@@ -194,77 +185,3 @@ footer.footer-area .social a:hover > i{
 
 /* End Services Area */
 
-/* Start Brand Area */
-
-.brand-area{
-    padding:1rem 20rem;
-    margin-bottom:4rem;
-   
-}
-
-.brand-area .first-row .col-lg-4{
-    display: flex;
-    justify-content:center;
-}
-
-.brand-area .first-row .col-lg-4 > .single-brand{
-    border:1px solid var(--border-color);
-    text-align: center;
-    padding: 1rem 0rem;
-    margin: .9rem 0;
-    width: 180px;
-    height:100px;
-    cursor:pointer;
-    transition:transform .4s ease;
-    
-}
-
-.brand-area .first-row .col-lg-4 > .single-brand > img{
-    width: 75%;
-}
-
-.brand-area .first-row .col-lg-4 > .single-brand:hover > img{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.1)
-}
-
-.brand-area .experience-area{
-    padding-left: 3rem;
-}
-
-.experience-area span{
-    display:block;
-}
-
-.brand-area .experience-area .bg-panel{
-    position: absolute;
-    left: -190px; top:0%;
-    background:#e0752911;
-    width:400px;
-    height: 400px;
-    margin-left: 250px;
-    z-index: -1;
-}
-
-.brand-area .experience-area .years-area .years{
-    font:normal bold;
-    font-family:helvetica;
-    color:rgb(3, 104, 255);
-    
-}
-
-.fpbwgh{
-    font-size: small;
-}
-
-.brand-area .experience-area .years-area h2 > span{
-    font:normal 600 22px/30px;
-    font-family: helvetica;
-}
-
-.brand-area .experience-area .call-area{
-    padding-left: 3rem;
-    padding-top: 3rem;
-}
-
-/* End Brand Area */
